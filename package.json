@@ -1,0 +1,19 @@
+{
+  "name": "book-club-raw-recording",
+  "version": "1.0.0",
+  "description": "raw recording for analysis",
+  "main": "main.js",
+  "author": "lucas minter",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "14.7.1",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20"
+  }
+}
